@@ -1,0 +1,39 @@
+.hero{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:120px auto;
+
+    display:grid;
+
+    grid-template-columns:1fr 400px;
+
+    gap:60px;
+
+    align-items:center;
+
+}
+
+.texto h1{
+    color: hotpink;
+    font-size:70px;
+
+}
+
+.texto h2{
+    color: #131212;
+}
+
+
+.card{
+
+    height:500px;
+
+    border-radius:25px;
+
+    background:white;
+
+    border:2px solid hotpink;
+
+}

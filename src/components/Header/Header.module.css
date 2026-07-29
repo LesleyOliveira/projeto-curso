@@ -1,28 +1,40 @@
 .header{
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
-    background-color: aliceblue;
-    border-bottom: 1px solid rgb(245, 179, 219);
+
+    width:100%;
+
+    background:white;
+
+    border-bottom:1px solid #eee;
+
 }
 
-.header span{
-    font-size: 1.5rem;
-    font-weight: bold;
+.navbar{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    height:80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.logo{
+    color:hotpink;
+}
+
+.links{
+    display:flex;
+    gap:30px;
+
+}
+
+.links a{
+    text-decoration:none;
+    color:#666;
+
+}
+
+.links a:hover{
     color: hotpink;
 }
 
-.header nav a{
-    color: gray;
-    text-decoration: none;
-    margin-left: 1.5rem;
-    font-size: 1rem;
-    transition: color 0.2s;
-}
-
-.header nav a:hover{
-    color: rgb(242, 64, 185);
-
-}

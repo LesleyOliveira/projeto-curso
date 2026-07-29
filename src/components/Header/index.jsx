@@ -1,28 +1,24 @@
-import styles from './Header.module.css';
+import styles from "./Header.module.css";
 
 export default function Header() {
-    return(
+  return (
     <header className={styles.header}>
-        <span>Lesly Oliveira</span>
-        <nav className={styles.header} >
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Habilidades</a>
-            <a href="#">Projetos</a>
-            <a href="#">Expêriencia</a>
-            <a href="#">Contatos</a>
-        </nav>
+      <nav className={styles.navbar}>
 
-        <section className='styles.hero'>
-            <div className='styles.texto'>
-                <p>Olá</p>
+        <h2 className={styles.logo}>
+          Lesly Oliveira
+        </h2>
 
+        <div className={styles.links}>
+          <a href="#">Home</a>
+          <a href="#">Sobre</a>
+          <a href="#">Habilidades</a>
+          <a href="#">Projetos</a>
+          <a href="#">Experiência</a>
+          <a href="#">Contato</a>
+        </div>
 
-
-            </div>
-
-        </section>
-
+      </nav>
     </header>
-    );
+  );
 }
