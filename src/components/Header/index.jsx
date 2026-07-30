@@ -12,9 +12,8 @@ export default function Header() {
         <div className={styles.links}>
           <a href="#">Home</a>
           <a href="#">Sobre</a>
-          <a href="#">Habilidades</a>
+          <a href="#">Skills</a>
           <a href="#">Projetos</a>
-          <a href="#">Experiência</a>
           <a href="#">Contato</a>
         </div>
 
